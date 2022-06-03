@@ -1,0 +1,75 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size : 120%;
+	font-family : Microsoft YaHei, SimHei, sans-serif;
+}
+
+input[type = "text"], input[type = "number"] {
+	font-size : 150%;
+	font-family : Microsoft YaHei, SimHei, sans-serif;
+	height : 40px;
+}
+
+select {
+	width : 75%;
+	font-size : 100%;
+	font-family : Microsoft YaHei, SimHei, sans-serif;
+}
+
+/*默认表格*/
+table.main {
+	width: 100%;
+	
+	border-collapse: collapse;
+}
+table.ruler {
+	width: 100%;
+	
+	font-size: 1em;
+	border-collapse: collapse;
+	
+	float: right;
+}
+table.number {
+	border-collapse: collapse;
+}
+
+/*用于蛋疼的IE*/
+th, td {
+	width: 10%;
+	
+	vertical-align: top;
+}
+
+tr.line{
+	height: 1mm;
+}
+td.line {
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	
+	border-top-width: 1px;
+	border-bottom-width: 0;
+	border-right-width: 0;
+	border-left-width: 0;
+}
+td.none {
+	border-width: 0;
+}
+
+tr.number{
+	height: 10mm;
+}
+td.number{
+	text-align: right;
+	vertical-align: bottom;
+	
+	border-width: 1px;
+}
+
